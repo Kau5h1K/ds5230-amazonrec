@@ -1,0 +1,292 @@
+Initializing dataset: electronics
+Successfully initialized!
+1292954 training records
+about 1157633 users and 9560 items are loaded!
+start training electronics_MF_0_512_10_0.01_0.001_0_0_0 ...
+2020-12-15 12:25:42.705125: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/Users/kaushik/anaconda3/lib/python3.7/site-packages/pandas/core/indexing.py:671: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self._setitem_with_indexer(indexer, value)
+WARNING:tensorflow:From /Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /Users/kaushik/Kaushik's Stash/Workspace/NEU/NEU Assignments/USML (DS 5230)/Project/marketBias-master/src/model.py:30: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From /Users/kaushik/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+epoch:  1
+=== current batch: 500, complete!
+=== training: primary loss: 13.4354, min loss: 13.4354;  
+=== validation: primary loss: 10.0116, min loss: 10.0116;  
+=== #no progress:  0
+epoch:  2
+=== current batch: 500, complete!
+=== training: primary loss: 6.7834, min loss: 6.7834;  
+=== validation: primary loss: 5.0068, min loss: 5.0068;  
+=== #no progress:  0
+epoch:  3
+=== current batch: 500, complete!
+=== training: primary loss: 3.4134, min loss: 3.4134;  
+=== validation: primary loss: 2.7416, min loss: 2.7416;  
+=== #no progress:  0
+epoch:  4
+=== current batch: 500, complete!
+=== training: primary loss: 1.9903, min loss: 1.9903;  
+=== validation: primary loss: 1.9473, min loss: 1.9473;  
+=== #no progress:  0
+epoch:  5
+=== current batch: 500, complete!
+=== training: primary loss: 1.4148, min loss: 1.4148;  
+=== validation: primary loss: 1.7318, min loss: 1.7318;  
+=== #no progress:  0
+epoch:  6
+=== current batch: 500, complete!
+=== training: primary loss: 1.0665, min loss: 1.0665;  
+=== validation: primary loss: 1.7108, min loss: 1.7108;  
+=== #no progress:  0
+epoch:  7
+=== current batch: 500, complete!
+=== training: primary loss: 0.8004, min loss: 0.8004;  
+=== validation: primary loss: 1.7587, min loss: 1.7108;  
+=== #no progress:  1
+epoch:  8
+=== current batch: 500, complete!
+=== training: primary loss: 0.5981, min loss: 0.5981;  
+=== validation: primary loss: 1.8174, min loss: 1.7108;  
+=== #no progress:  2
+epoch:  9
+=== current batch: 500, complete!
+=== training: primary loss: 0.4529, min loss: 0.4529;  
+=== validation: primary loss: 1.8756, min loss: 1.7108;  
+=== #no progress:  3
+epoch:  10
+=== current batch: 500, complete!
+=== training: primary loss: 0.3502, min loss: 0.3502;  
+=== validation: primary loss: 1.9104, min loss: 1.7108;  
+=== #no progress:  4
+epoch:  11
+=== current batch: 500, complete!
+=== training: primary loss: 0.2778, min loss: 0.2778;  
+=== validation: primary loss: 1.9400, min loss: 1.7108;  
+=== #no progress:  5
+epoch:  12
+=== current batch: 500, complete!
+=== training: primary loss: 0.2270, min loss: 0.2270;  
+=== validation: primary loss: 1.9532, min loss: 1.7108;  
+=== #no progress:  6
+epoch:  13
+=== current batch: 500, complete!
+=== training: primary loss: 0.1891, min loss: 0.1891;  
+=== validation: primary loss: 1.9580, min loss: 1.7108;  
+=== #no progress:  7
+epoch:  14
+=== current batch: 500, complete!
+=== training: primary loss: 0.1614, min loss: 0.1614;  
+=== validation: primary loss: 1.9591, min loss: 1.7108;  
+=== #no progress:  8
+epoch:  15
+=== current batch: 500, complete!
+=== training: primary loss: 0.1406, min loss: 0.1406;  
+=== validation: primary loss: 1.9625, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  16
+=== current batch: 500, complete!
+=== training: primary loss: 0.1257, min loss: 0.1257;  
+=== validation: primary loss: 1.9478, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  17
+=== current batch: 500, complete!
+=== training: primary loss: 0.1135, min loss: 0.1135;  
+=== validation: primary loss: 1.9379, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  18
+=== current batch: 500, complete!
+=== training: primary loss: 0.1050, min loss: 0.1050;  
+=== validation: primary loss: 1.9345, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  19
+=== current batch: 500, complete!
+=== training: primary loss: 0.0978, min loss: 0.0978;  
+=== validation: primary loss: 1.9225, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  20
+=== current batch: 500, complete!
+=== training: primary loss: 0.0922, min loss: 0.0922;  
+=== validation: primary loss: 1.9084, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  21
+=== current batch: 500, complete!
+=== training: primary loss: 0.0870, min loss: 0.0870;  
+=== validation: primary loss: 1.8951, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  22
+=== current batch: 500, complete!
+=== training: primary loss: 0.0834, min loss: 0.0834;  
+=== validation: primary loss: 1.8809, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  23
+=== current batch: 500, complete!
+=== training: primary loss: 0.0795, min loss: 0.0795;  
+=== validation: primary loss: 1.8766, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  24
+=== current batch: 500, complete!
+=== training: primary loss: 0.0767, min loss: 0.0767;  
+=== validation: primary loss: 1.8612, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  25
+=== current batch: 500, complete!
+=== training: primary loss: 0.0740, min loss: 0.0740;  
+=== validation: primary loss: 1.8463, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  26
+=== current batch: 500, complete!
+=== training: primary loss: 0.0718, min loss: 0.0718;  
+=== validation: primary loss: 1.8351, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  27
+=== current batch: 500, complete!
+=== training: primary loss: 0.0696, min loss: 0.0696;  
+=== validation: primary loss: 1.8154, min loss: 1.7108;  
+=== #no progress:  9
+epoch:  28
+=== current batch: 500, complete!
+=== training: primary loss: 0.0675, min loss: 0.0675;  
+=== validation: primary loss: 1.8160, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  29
+=== current batch: 500, complete!
+=== training: primary loss: 0.0656, min loss: 0.0656;  
+=== validation: primary loss: 1.8002, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  30
+=== current batch: 500, complete!
+=== training: primary loss: 0.0640, min loss: 0.0640;  
+=== validation: primary loss: 1.7909, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  31
+=== current batch: 500, complete!
+=== training: primary loss: 0.0622, min loss: 0.0622;  
+=== validation: primary loss: 1.7846, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  32
+=== current batch: 500, complete!
+=== training: primary loss: 0.0607, min loss: 0.0607;  
+=== validation: primary loss: 1.7734, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  33
+=== current batch: 500, complete!
+=== training: primary loss: 0.0592, min loss: 0.0592;  
+=== validation: primary loss: 1.7600, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  34
+=== current batch: 500, complete!
+=== training: primary loss: 0.0578, min loss: 0.0578;  
+=== validation: primary loss: 1.7538, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  35
+=== current batch: 500, complete!
+=== training: primary loss: 0.0565, min loss: 0.0565;  
+=== validation: primary loss: 1.7518, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  36
+=== current batch: 500, complete!
+=== training: primary loss: 0.0554, min loss: 0.0554;  
+=== validation: primary loss: 1.7419, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  37
+=== current batch: 500, complete!
+=== training: primary loss: 0.0542, min loss: 0.0542;  
+=== validation: primary loss: 1.7311, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  38
+=== current batch: 500, complete!
+=== training: primary loss: 0.0530, min loss: 0.0530;  
+=== validation: primary loss: 1.7233, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  39
+=== current batch: 500, complete!
+=== training: primary loss: 0.0518, min loss: 0.0518;  
+=== validation: primary loss: 1.7162, min loss: 1.7108;  
+=== #no progress:  10
+epoch:  40
+=== current batch: 500, complete!
+=== training: primary loss: 0.0508, min loss: 0.0508;  
+=== validation: primary loss: 1.7063, min loss: 1.7063;  
+=== #no progress:  0
+epoch:  41
+=== current batch: 500, complete!
+=== training: primary loss: 0.0499, min loss: 0.0499;  
+=== validation: primary loss: 1.7027, min loss: 1.7027;  
+=== #no progress:  0
+epoch:  42
+=== current batch: 500, complete!
+=== training: primary loss: 0.0489, min loss: 0.0489;  
+=== validation: primary loss: 1.6984, min loss: 1.6984;  
+=== #no progress:  0
+epoch:  43
+=== current batch: 500, complete!
+=== training: primary loss: 0.0479, min loss: 0.0479;  
+=== validation: primary loss: 1.6927, min loss: 1.6927;  
+=== #no progress:  0
+epoch:  44
+=== current batch: 500, complete!
+=== training: primary loss: 0.0470, min loss: 0.0470;  
+=== validation: primary loss: 1.6872, min loss: 1.6872;  
+=== #no progress:  0
+epoch:  45
+=== current batch: 500, complete!
+=== training: primary loss: 0.0463, min loss: 0.0463;  
+=== validation: primary loss: 1.6821, min loss: 1.6821;  
+=== #no progress:  0
+epoch:  46
+=== current batch: 500, complete!
+=== training: primary loss: 0.0454, min loss: 0.0454;  
+=== validation: primary loss: 1.6745, min loss: 1.6745;  
+=== #no progress:  0
+epoch:  47
+=== current batch: 500, complete!
+=== training: primary loss: 0.0446, min loss: 0.0446;  
+=== validation: primary loss: 1.6738, min loss: 1.6738;  
+=== #no progress:  0
+epoch:  48
+=== current batch: 500, complete!
+=== training: primary loss: 0.0439, min loss: 0.0439;  
+=== validation: primary loss: 1.6601, min loss: 1.6601;  
+=== #no progress:  0
+epoch:  49
+=== current batch: 500, complete!
+=== training: primary loss: 0.0431, min loss: 0.0431;  
+=== validation: primary loss: 1.6613, min loss: 1.6601;  
+=== #no progress:  1
+epoch:  50
+=== current batch: 500, complete!
+=== training: primary loss: 0.0425, min loss: 0.0425;  
+=== validation: primary loss: 1.6538, min loss: 1.6538;  
+=== #no progress:  0
+epoch:  51
+=== current batch: 500, complete!
+=== training: primary loss: 0.0418, min loss: 0.0418;  
+=== validation: primary loss: 1.6520, min loss: 1.6520;  
+=== #no progress:  0
+epoch:  52
+=== current batch: 500, complete!
+=== training: primary loss: 0.0411, min loss: 0.0411;  
+=== validation: primary loss: 1.6513, min loss: 1.6513;  
+=== #no progress:  0
